@@ -143,7 +143,7 @@
     };
 
     preloadImages().then(() => {
-        // setTimeout(() => removeLoader(), 2000);
+        setTimeout(() => removeLoader(), 2000);
         getPageYScroll();
         new SmoothScroll();
     });
