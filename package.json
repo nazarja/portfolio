@@ -1,0 +1,20 @@
+{
+  "name": "seanmurphy.dev",
+  "version": "1.0.0",
+  "description": "Portfolio of Sean Murphy, Full Stack Developer",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Sean Murphy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "events": "^3.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
