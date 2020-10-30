@@ -362,9 +362,12 @@
     .header-title, .header-title-middle {
         font-size: 3rem;
     }
-    .item__img-wrap {
-        filter: saturation(0%);
-        opacity: .85;
+    .item .item__img-wrap  {
+        opacity: .5;
+        /* filter: none; */
+    }
+    .item__caption-copy {
+        line-height: 1.2rem;
     }
     #fullscreen-image img {
         height: auto;
